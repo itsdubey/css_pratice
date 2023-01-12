@@ -1,0 +1,17 @@
+ /* div{ */
+    /* text-decoration propaties */
+   /* text-decoration: underline overline line-through; */
+    /* text-align propaties (center,left,reight,justify)*/
+    /*text-align: center;*/
+/*} */
+
+
+
+/*div{
+    text-indent: 10000px;
+}*/
+
+div{
+    /* text-tranform proparties(uppercase,lowercase,captilization)*/
+    text-transform: uppercase; 
+}
