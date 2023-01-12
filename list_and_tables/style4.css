@@ -1,0 +1,12 @@
+table{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    border-collapse: collapse;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+
+td{
+    border:solid 5px red;
+}
