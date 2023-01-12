@@ -1,0 +1,32 @@
+b[id]{
+    color: orchid;  /* attribute selector 1:- B[ID]
+/* Selects all elements b with an attribute id */
+}
+
+
+a[target=_blank]{
+    color: deeppink;
+}
+
+
+p[title ~=description]{
+    color: green;
+    /* Selects all elements with a title attribute containing the word "description" */
+}
+
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: rebeccapurple;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+a:visited{
+    color: brown;
+}

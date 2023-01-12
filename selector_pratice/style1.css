@@ -1,0 +1,40 @@
+b{
+    color: gold;  /* type/element selector */
+
+}
+
+
+#id1{
+    color: blue; /* ID SELECTOR */
+} 
+
+
+.red{
+    color: yellowgreen;  /* class selector */
+}
+
+
+b,i{
+    background-color: black;  /* gruping seletor */
+}
+
+*{
+    font-size: 60px;  /* universal selector */
+}
+
+
+p i{
+    color: brown;  /* 01:-descendant/child class (E1 E2) */
+}/*Selects all <p> elements inside <div> elements at any level*/
+
+
+p>i{
+    color: darkblue; /* 02:- E1>E2 */
+   /* Selects all <i> elements where the immediate parent is a <p>*/
+}
+
+p+b{
+    color: pink;
+}
+
+
